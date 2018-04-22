@@ -49,27 +49,6 @@
   <!-- Use doc_depend for packages you need only for building documentation: -->
   <!--   <doc_depend>doxygen</doc_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
-  <build_depend>aruco_pkgs</build_depend>
-  <build_depend>roboclaw_ros</build_depend>
-  <build_depend>roscpp</build_depend>
-  <build_depend>rospy</build_depend>
-  <build_depend>state_machine</build_depend>
-  <build_depend>teleop_control</build_depend>
-  <build_depend>usr_zed</build_depend>
-  <build_export_depend>aruco_pkgs</build_export_depend>
-  <build_export_depend>roboclaw_ros</build_export_depend>
-  <build_export_depend>roscpp</build_export_depend>
-  <build_export_depend>rospy</build_export_depend>
-  <build_export_depend>state_machine</build_export_depend>
-  <build_export_depend>teleop_control</build_export_depend>
-  <build_export_depend>usr_zed</build_export_depend>
-  <exec_depend>aruco_pkgs</exec_depend>
-  <exec_depend>roboclaw_ros</exec_depend>
-  <exec_depend>roscpp</exec_depend>
-  <exec_depend>rospy</exec_depend>
-  <exec_depend>state_machine</exec_depend>
-  <exec_depend>teleop_control</exec_depend>
-  <exec_depend>usr_zed</exec_depend>
 
 
   <!-- The export tag contains other, unspecified, tags -->

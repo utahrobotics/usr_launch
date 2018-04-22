@@ -8,12 +8,6 @@ project(usr_launch)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  roboclaw_ros
-  roscpp
-  rospy
-  state_machine
-  teleop_control
-  usr_zed
 )
 
 ## System dependencies are found with CMake's conventions
