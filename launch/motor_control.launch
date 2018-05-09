@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <launch>
-  <include file="$(find gamepad)/launch/gamepad_control.launch">
-  </include>
   <include file="$(find roboclaw_ros)/launch/roboclaw.launch">
+  </include>
+  <include file="$(find pololu_ros)/launch/pololu_node.launch">
   </include>
 </launch>
