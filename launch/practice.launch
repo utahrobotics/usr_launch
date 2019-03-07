@@ -18,6 +18,10 @@
 	<include file="$(find gamepad)/launch/gamepad_control.launch">
 	</include>
 
+<!-- zed -->
+	<include file="$(find zed-wrapper)/launch/zed.launch"></include>
+	<include file="$(find zed-wrapper)/launch/zed_camera.launch"></include>
+
 <!-- state machine -->
   	<include file="$(find fsm)/launch/control.launch"></include>
 	<include file="$(find fsm)/launch/odom.launch"></include>
