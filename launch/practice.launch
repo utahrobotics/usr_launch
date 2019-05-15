@@ -5,10 +5,6 @@
 		<arg name="respawn" value="false" />
 	</include>
 
-<!-- stepper motor -->
-	<include file="$(find StepperMotor)/launch/stepperMotor.launch">
-		  
-	</include>
 
 <!-- drive motors -->
 	<include file="$(find odrive_ros)/launch/odrive.launch">
@@ -18,14 +14,21 @@
 	<include file="$(find gamepad)/launch/gamepad_control.launch">
 	</include>
 
+
 <!-- zed -->
-	<include file="$(find zed-wrapper)/launch/zed.launch"></include>
-	<include file="$(find zed-wrapper)/launch/zed_camera.launch"></include>
+	<include file="/home/usr/source/usr_ws/src/zed-ros-wrapper/zed_wrapper/launch/zed.launch"></include>
+	<include file="/home/usr/source/usr_ws/src/zed-ros-wrapper/zed_wrapper/launch/zed_camera.launch"></include>
 
 <!-- state machine -->
-  	<include file="$(find fsm)/launch/control.launch"></include>
-	<include file="$(find fsm)/launch/odom.launch"></include>
-	<include file="$(find fsm)/launch/smach.launch"></include>
+  	<include file="/home/usr/source/usr_ws/src/state_machine/fsm/launch/control.launch"></include>
+	<include file="/home/usr/source/usr_ws/src/state_machine/fsm/launch/odom.launch"></include>
+	<include file="/home/usr/source/usr_ws/src/state_machine/fsm/launch/smach.launch"></include>
 	<!--<include file="$(find fsm)/launch/test.launch"></include>-->
+
+<!-- stepper motor 
+	<include file="/home/usr/source/usr_ws/src/stepper_control/launch/stepperMotor.launch">
+		  
+	</include> -->
+
 
 </launch>
