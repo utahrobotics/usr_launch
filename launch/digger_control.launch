@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- drum motor -->
+	<include file="$(find roboclaw_ros)/launch/roboclaw.launch">
+		<arg name="respawn" value="false" />
+	</include>
+
+  <!-- teleop -->
+    <include file="$(find gamepad)/launch/gamepad_control.launch">
+    </include>
+  
+</launch>
