@@ -4,6 +4,9 @@
 	<include file="$(find odrive_ros)/launch/odrive.launch">
 	</include>
 
+  <!-- M5-->
+  <node pkg="motion_control" type="M5" name="motion_controller" required=true>
+
   <!-- teleop -->
     <include file="$(find gamepad)/launch/gamepad_control.launch">
     </include>

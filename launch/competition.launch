@@ -20,7 +20,10 @@
 		  
 	</include> 
 
-  <!-- sound board -->
+<!-- M5-->
+  <node pkg="motion_control" type="M5" name="motion_controller" required=true>
+
+<!-- sound board -->
   <include file="$(find utilities)/launch/sound_board.launch">
   </include>
 
